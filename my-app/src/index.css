@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.dragDropBox {
+  margin: 0px 10px 0px 15px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.shapes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.shapesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  flex-direction: column;align-items: center;
+}
+
+.buttonArea {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+.alert{
+  background-color: rgb(201, 5, 87);
+  margin: 10px;
+  padding: 3px;
+  color: aliceblue;
+}
+.clickBtn {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 20px 0 20px;
+  height: fit-content;
+  cursor: pointer;
+}
+.clickBtn:hover {
+  transform: scale(1.1);
+}
+
+.stageCustom {
+  border: 1px solid black;
+  flex-wrap: wrap;
+  display: flex;
+}
